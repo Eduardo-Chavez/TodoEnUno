@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo9"
+    android:orientation="vertical"
+    tools:context=".Prestamo">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONSIGUE TU PRESTAMO"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:fontFamily="sans-serif-black" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="9pt"
+        />
+
+
+
+    <EditText
+        android:id="@+id/etxMontoPrestamo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa el monto que requieres:"
+        android:textSize="10pt"
+        android:background="@android:color/holo_blue_bright"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="9pt"
+        />
+
+    <EditText
+        android:id="@+id/etxInteresAnual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Interes que se te cobrara (anual)"
+        android:background="@android:color/holo_blue_bright"
+    android:textSize="10pt"
+    android:inputType="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="9pt"
+        />
+
+    <EditText
+        android:id="@+id/etxPlazoMeses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Plazo en meses (6, 12, 18, 24)"
+        android:background="@android:color/holo_blue_bright"
+        android:textSize="10pt"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="9pt"
+        />
+
+
+    <Button
+        android:id="@+id/btnCalcularPrestamo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:background="@android:color/white"
+        android:textSize="10pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="9pt"
+        />
+
+    <TextView
+        android:id="@+id/txvMontoPagoMen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monto de pagos mensual: "
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center"
+        android:textSize="9pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="9pt"
+        />
+
+
+    <TextView
+        android:id="@+id/txvInter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interés mensual: "
+        android:textAlignment="center"
+        android:textSize="9pt"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="9pt"
+        />
+
+    <TextView
+        android:id="@+id/txvPagoTot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total de Pago: "
+        android:textAlignment="center"
+        android:textSize="9pt"
+        android:textColor="@android:color/holo_red_dark"/>
+
+</LinearLayout>
